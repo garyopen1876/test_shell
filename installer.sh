@@ -13,12 +13,19 @@ echo -e "${YELLOW}Install Node.js${CLEAR}"
 sudo apt-get install -y nodejs
 node -v
 
-# install node.js
+# install npm
 echo -e "${YELLOW}Install Npm${CLEAR}"
 sudo apt-get install npm
 npm -v
 
-
-
+# install project & run 
+echo -e "${YELLOW}Install Project Front${CLEAR}"
+cd ~/refrigerator_label_back
+npm instal
+npm instal start
+echo -e "${YELLOW}Install Project End${CLEAR}"
+cd ~/refrigerator_label_front
+npm instal
+npm instal start
 
 
