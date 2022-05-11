@@ -22,11 +22,11 @@ npm -v
 
 # install project & run 
 echo -e "${YELLOW}Install Project Front${CLEAR}"
-cd ~/refrigerator_label_back
+cd refrigerator_label_back
 npm install
 npm start
 echo -e "${YELLOW}Install Project End${CLEAR}"
-cd ~/refrigerator_label_front
+cd refrigerator_label_front
 npm install
 npm start
 
