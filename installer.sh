@@ -8,6 +8,8 @@ CLEAR='\033[0m'   # Clear color and formatting
 
 echo -e "${GREEN}Start Install Label Management System...${CLEAR}"
 
+sudo apt-get update
+
 # install node.js
 echo -e "${YELLOW}Install Node.js${CLEAR}"
 sudo apt-get install -y nodejs
