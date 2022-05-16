@@ -40,7 +40,7 @@ create_label = async (req, res) => {
       const is_user = await user_service.is_user(req.body);
       if (is_user) {
         const final_id = await label_service.last_id();
-        if (!final_id?.id) {
+        if (1===1) {
           data_id = "001";
         } else if (final_id.id > 0 && final_id.id + 1 < 10) {
           data_id = "00" + String(final_id.id + 1);
